@@ -1,4 +1,4 @@
-const Feeedback = [
+const FeedbackData = [
   {
     id: 1,
     rating: 10,
