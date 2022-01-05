@@ -13,8 +13,8 @@ Header.defaultProps = {
   text: 'Feedback UI', 
 }
 
-Header.PropTypes = {
-  text: PropTypes.string
+Header.propTypes = {
+  text: PropTypes.string,
 }
 
 export default Header
