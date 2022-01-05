@@ -1,4 +1,7 @@
+import {useState} from 'react'
+
 function Feedbackitem() {
+  const [rating, setRating] = useState(7)
   return (
     <div className='card'>
       <div className="num-display">10</div>  
