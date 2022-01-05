@@ -1,8 +1,9 @@
 function Header() {
   return (
-    <div>
-      
-    </div>
+    <header>
+      <div className="container"></div>
+      <h2>Fedback UI</h2>
+    </header>
   )
 }
 
