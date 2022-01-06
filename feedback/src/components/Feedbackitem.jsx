@@ -11,7 +11,7 @@ function Feedbackitem({item}) {
   )
 }
 
-Feedback.propTypes = {
+Feedbackitem.propTypes = {
   item: PropTypes.object.isRequired
 }
 
