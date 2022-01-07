@@ -1,4 +1,4 @@
-import { ReactPropTypes } from "react"
+import PropTypes from 'prop-types'
 
 function FeedbackStats({feedback}) {
   //calculate ratings avg
@@ -17,7 +17,7 @@ function FeedbackStats({feedback}) {
 }
 
 FeedbackStats.propTypes = {
-  feedback: Proptypes.array.isRequired,
+  feedback: PropTypes.array.isRequired,
 }
 
 export default FeedbackStats
